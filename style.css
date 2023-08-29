@@ -1,0 +1,56 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 25px;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+section {
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media(max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+  }
+}
+
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.Canva {width: 65%; background-color: #f44336;} /* Red */
+.Photoshop {width: 60%; background-color: #808080;} /* Dark Grey */
